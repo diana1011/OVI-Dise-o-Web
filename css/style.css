@@ -1,0 +1,191 @@
+#prinncipal{
+	width: 900px;
+	height: auto;overflow: hidden;
+	borde:1px solid #FFCC00;
+	margin: auto;
+
+
+}
+header {
+	width:100%; /* Establecemos que el header abarque el 100% del documento */
+	overflow:hidden; /* Eliminamos errores de float */
+	background: #FFFFFF  ;
+	margin-bottom:20px;
+}
+
+ 
+.wrapper {
+	width:90%; /* Establecemos que el ancho sera del 90% */
+	max-width:1000px; /* Aqui le decimos que el ancho máximo sera de 1000px */
+	margin:auto; /* Centramos los elementos */
+	
+}
+.cabecera .container{
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
+.cabecera .logo{
+	float: left;
+	width: 200px
+
+}
+* {
+	margin:0;
+	padding:0;
+}
+
+
+}
+nav{
+	margin: 20px auto;
+	width: 90%;
+	max-width: 1000px;
+}
+nav  ul{
+	list-style: none;
+}
+nav > ul{
+	display:table;
+	overflow:hidden;
+	width: 100%;
+	background-color: #3300CC;
+	position: relative;
+}
+nav > ul li{
+	display: table-cell;
+}
+/*sub-menu*/
+nav > ul > li:hover > ul{
+	display: block;
+	height: 70%;
+}
+nav > ul > li > ul {
+	display:block;
+	position: absolute;
+	background:#99CCFF;
+	left: 0;
+	right: 0;
+	overflow: hidden;
+	height:0%;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+	}
+
+
+nav > ul li a  {
+	color: #FFFFFF;
+	display:block;
+	line-height: 20px;
+	padding: 20px;
+	position: relative;
+	text-align: center;
+	text-decoration:none;
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+
+}
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
+	}
+
+nav > ul > li > a span{
+	background:#174459;
+	display: block;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	position:absolute;
+	top: -66px; 
+	-webkit-transition: all .3s ease;
+	-moz-transition: all .3s ease;
+	-ms-transition: all .3s ease;
+	-o-transition: all .3s ease;
+	transition: all .3s ease;
+
+}
+nav > ul > li > a .icon {
+	display: block;
+	line-height: 60px; 
+
+}
+nav > ul > li > a:hover > span {
+	top: 0;
+}
+/*colores*/
+nav ul li a .primero {
+	background:  #FFCC00   ;
+	}
+nav ul li a .segundo {
+	background: #FFCC00;
+	}
+
+nav ul li a .tercero{
+	background: #FFCC00  ;
+	}
+nav ul li a .cuarto {
+	background:#FFCC00;
+	}
+nav ul li a .quinto{
+	background: #FFCC00 ;
+	}
+#slide{
+		margin-top:10px;
+		width:900px;
+		height:250px;
+}
+
+#categorias{
+	width:1320px;
+	height:auto;overflow:hidden;
+	border: 4px solid;
+	margin-top:10px;
+}
+.INFORMACIÓNOVI{
+	width:250px;
+	height:auto;overflow:hidden;
+	border: 0px solid  #ccc;
+	float:left;
+	padding:20px;
+	text-align: justify;
+	
+
+}
+.ObjetivosOVI{
+	width:280px;
+	height:auto;overflow:hidden;
+	border: 0px solid  #ccc;
+	float:left;
+	padding:20px;
+	text-align: justify;
+	
+}
+.ObjetivosCurso{
+	width:280px;
+	height:auto;overflow:hidden;
+	border: 0px solid  #ccc;
+	float:left;
+	padding:20px;
+	text-align: justify;
+	
+}
+.descargas{
+	width:280px;
+	height:auto;overflow:hidden;
+	border: 0px solid  #ccc;
+	float:left;
+	padding:20px;
+	text-align: center;
+	
+}
+#footer{
+	width:900px;
+	height:100px;
+	text-align:center;
+}
