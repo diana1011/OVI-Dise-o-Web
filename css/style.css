@@ -1,7 +1,3 @@
-
-
-
-}
 header {
 	width:100%; /* Establecemos que el header abarque el 100% del documento */
 	overflow:hidden; /* Eliminamos errores de float */
@@ -184,5 +180,6 @@ nav ul li a .quinto{
 	width:900px;
 	height:100px;
 	text-align:center;
+	background-color: #3300CC;
 }
 
